@@ -283,7 +283,7 @@ function fokpass(){
     }
 }
 
-var raizjsonsto="./";
+var raizjsonsto="https://noenadies.github.io/tiendajs/";
 var nombrejson="jsonstore.json";
 var arradatosjon=[];
 function encuentrajson(){
