@@ -41,7 +41,7 @@ console.log(varwx*0.3);
 jcreategaleria();
 
 organizarm();
-jcreategaleria();
+
 
 encuentrajson();
 
@@ -298,7 +298,7 @@ function encuentrajson(){
      idx=arradatosjon[i].id;
      srca=arradatosjon[i].img;
      console.log(srca);
-     var imgdiv=' <div class="cldiv"> <img id="'+idx+'" onclick="functionimg(this)" class="climggaleria" src="'+srca+'" alt=""></div>';
+     var imgdiv=' <div class="cldiv"> <img id="'+idx+'" onclick="elclickdatosjson(this)" class="climggaleria" src="'+srca+'" alt=""></div>';
     
      $("#idgaleria").append(imgdiv);
     
@@ -319,15 +319,18 @@ function encuentrajson(){
 
 function  elclickdatosjson(_this) { 
 var tengo=false;
+var urldelobj="";
     for(var i in arradatosjon){
 if(arradatosjon.id==_this.id){
     tengo=true;
+    urldelobj=arradatosjon[i].fileurl;
     break;
 }
     }
 
 if(tengo){
-
+    document.getElementById("idmenuselecionaobj").style.display="none";
+    cargaunobjglndesdeurlgiovanni(urldelobj);
 }
 
  }
