@@ -42,6 +42,10 @@ jcreategaleria();
 
 organizarm();
 jcreategaleria();
+
+encuentrajson();
+
+
 });
 
 
@@ -278,3 +282,52 @@ function fokpass(){
     
     }
 }
+
+var raizjsonsto="./";
+var nombrejson="jsonstore.json";
+var arradatosjon=[];
+function encuentrajson(){
+
+ $.getJSON(raizjsonsto+nombrejson, function(result){
+    console.log(result); 
+    arradatosjon=result;
+
+    var idx="";
+    var srca="";
+    for(var i in arradatosjon){
+     idx=arradatosjon[i].id;
+     srca=arradatosjon[i].img;
+     console.log(srca);
+     var imgdiv=' <div class="cldiv"> <img id="'+idx+'" onclick="functionimg(this)" class="climggaleria" src="'+srca+'" alt=""></div>';
+    
+     $("#idgaleria").append(imgdiv);
+    
+    
+    }
+    
+
+/*     $.each(result, function(i, field){
+    //  $("div").append(field + " ");
+      console.log(field); 
+      console.log(i);
+    }); */
+  });
+
+}
+
+
+
+function  elclickdatosjson(_this) { 
+var tengo=false;
+    for(var i in arradatosjon){
+if(arradatosjon.id==_this.id){
+    tengo=true;
+    break;
+}
+    }
+
+if(tengo){
+
+}
+
+ }
