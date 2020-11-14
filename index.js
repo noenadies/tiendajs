@@ -3,18 +3,7 @@ var estaurlobj="yyuu.glb";
 var raizdelosobjetos="https://axsazxcdas.github.io/algonoimportante/";
 BABYLON.Sandbox.Show(hostElement);
 
-document.onkeydown=function(e){
-  
-    if(e.key=="a"){
-        console.log(miglobal.loadAssetFromUrl);
-        cargaunobjglndesdeurlgiovanni(estaurlobj);
-    } 
-    if(e.key=="s"){
-      /*   console.log(miglobal.loadAssetFromUrl);
-        cargaunobjglndesdeurlgiovanni(raizdelosobjetos+"mos2.glb"); */
-     
-    } 
-}
+
 
 
 var varwx=window.innerWidth;
