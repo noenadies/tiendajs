@@ -903,7 +903,7 @@ PERFORMANCE OF THIS SOFTWARE.
                             return i.createElement(
                                 "div",
                                 { id: "root" },
-                                i.createElement("p", { id: "droptext", ref: this._dropTextRef }, "Drag and drop gltf, glb, obj or babylon files to view them"),
+                                i.createElement("p", { id: "droptext", ref: this._dropTextRef }, "arrastra y suelta gltf, glb, obj "),
                                 i.createElement(d, { globalState: this._globalState, assetUrl: this._assetUrl, cameraPosition: this._cameraPosition, expanded: !this.state.isFooterVisible }),
                                 i.createElement("div", {
                                     ref: this._clickInterceptorRef,
@@ -913,7 +913,7 @@ PERFORMANCE OF THIS SOFTWARE.
                                     className: "clickInterceptor hidden",
                                 }),
                                 this.state.isFooterVisible && i.createElement(S, { globalState: this._globalState }),
-                                i.createElement("div", { id: "logoContainer" }, i.createElement("img", { id: "logo", src: T, ref: this._logoRef })),
+                                i.createElement("div", { id: "logoContainer" }, i.createElement("img", { id: "logo", src: T, ref: this._logoRef })),//
                                 this.state.errorMessage &&
                                     i.createElement(
                                         "div",
@@ -6976,7 +6976,7 @@ object-assign
         },
         function (e, t) {
             e.exports =
-                "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180.17 208.04'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23fff;%7D.cls-2%7Bfill:%23e0684b;%7D.cls-3%7Bfill:%2334fff1;%7D.cls-4%7Bfill:%23e0ded8;%7D.cls-5%7Bfill:%23d5d2ca;%7D%3C/style%3E%3C/defs%3E%3Ctitle%3EBabylonLogo%3C/title%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Page_Elements' data-name='Page Elements'%3E%3Cpath class='cls-1' d='M90.09,0,0,52V156l90.09,52,90.08-52V52Z'/%3E%3Cpolygon class='cls-2' points='180.17 52.01 151.97 35.73 124.85 51.39 153.05 67.67 180.17 52.01'/%3E%3Cpolygon class='cls-2' points='27.12 67.67 117.21 15.66 90.08 0 0 52.01 27.12 67.67'/%3E%3Cpolygon class='cls-2' points='61.89 120.3 90.08 136.58 118.28 120.3 90.08 104.02 61.89 120.3'/%3E%3Cpolygon class='cls-3' points='153.05 67.67 153.05 140.37 90.08 176.72 27.12 140.37 27.12 67.67 0 52.01 0 156.03 90.08 208.04 180.17 156.03 180.17 52.01 153.05 67.67'/%3E%3Cpolygon class='cls-3' points='90.08 71.46 61.89 87.74 61.89 120.3 90.08 104.02 118.28 120.3 118.28 87.74 90.08 71.46'/%3E%3Cpolygon class='cls-4' points='153.05 67.67 118.28 87.74 118.28 120.3 90.08 136.58 90.08 176.72 153.05 140.37 153.05 67.67'/%3E%3Cpolygon class='cls-5' points='27.12 67.67 61.89 87.74 61.89 120.3 90.08 136.58 90.08 176.72 27.12 140.37 27.12 67.67'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E";
+                "https://img.itch.zone/aW1nLzM0OTE4MDMucG5n/347x500/%2FiOQ4E.png";
         },
     ]);
 });
