@@ -237,7 +237,28 @@ function fcl2(){
 
  
 }
+function fcl3(){
+    document.getElementById("idiframescuptl").style.display="none";
 
+    document.getElementById("idselecionah").style.display="none";
+  /*   document.getElementById("idiframescuptl").src="";
+    document.getElementById("idiframescuptl").src="https://robinsonnelsy.github.io/mipaint/www.photopea.com/index.html";
+    */ try {
+        document.getElementById("idmenucodigo").style.display="none";
+
+    } catch (error) {
+        
+    }
+
+    try {
+        document.getElementById("idmenuselecionaobj").style.display="none";
+   //     element
+    } catch (error) {
+        
+    }
+
+ 
+}
 
 function fcodifo(){
     document.getElementById("idmenuselecionaobj").style.display="none";
