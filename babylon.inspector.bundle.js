@@ -13214,7 +13214,7 @@ PERFORMANCE OF THIS SOFTWARE.
                                           s.createElement(w, { icon: _ })
                                       )
                                     : null
-                                : s.createElement("img", { id: "logo", style: { top: "0%" }, src: "https://www.babylonjs.com/Assets/logo-babylonjs-social-twitter.png" });
+                                : s.createElement("img", { id: "logo", style: { top: "0%" }, src: "" });
                         }),
                         (t.prototype.render = function () {
                             var e = this;
