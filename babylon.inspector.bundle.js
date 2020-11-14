@@ -16956,7 +16956,7 @@ PERFORMANCE OF THIS SOFTWARE.
                                       },
                                       !this.props.noHeader &&
                                           s.createElement(Wr, {
-                                              title: "SCENE EXPLORER",
+                                              title: "ESCENA ",
                                               noClose: this.props.noClose,
                                               noExpand: this.props.noExpand,
                                               noCommands: this.props.noCommands,
@@ -16992,7 +16992,7 @@ PERFORMANCE OF THIS SOFTWARE.
                                       },
                                       !this.props.noHeader &&
                                           s.createElement(Wr, {
-                                              title: "SCENE EXPLORER",
+                                              title: "ESCENA",
                                               noClose: this.props.noClose,
                                               noExpand: this.props.noExpand,
                                               noCommands: this.props.noCommands,
@@ -17481,7 +17481,7 @@ PERFORMANCE OF THIS SOFTWARE.
                                         this._CreateEmbedHost(t, n, i, e.OnSelectionChangeObservable);
                                 }
                             else if (n.popup)
-                                n.showExplorer && (this._SceneExplorerHost && (this._SceneExplorerHost.style.width = "0"), this._CreateSceneExplorer(t, n, this._CreatePopup("SCENE EXPLORER", "_SceneExplorerWindow"))),
+                                n.showExplorer && (this._SceneExplorerHost && (this._SceneExplorerHost.style.width = "0"), this._CreateSceneExplorer(t, n, this._CreatePopup("ESCENA", "_SceneExplorerWindow"))),
                                     n.showInspector && (this._ActionTabsHost && (this._ActionTabsHost.style.width = "0"), this._CreateActionTabs(t, n, this._CreatePopup("INSPECTOR", "_ActionTabsWindow")));
                             else {
                                 i = n.globalRoot ? n.globalRoot : a.parentElement;
