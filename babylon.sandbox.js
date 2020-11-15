@@ -423,6 +423,12 @@ PERFORMANCE OF THIS SOFTWARE.
                                 (e.pinchPrecision = 200 / e.radius), (e.upperRadiusLimit = 5 * e.radius), (e.wheelDeltaPercentage = 0.01), (e.pinchDeltaPercentage = 0.01);
                             }
                             this._scene.activeCamera.attachControl();
+                         
+                               
+        var gl = new BABYLON.GlowLayer("glow",  this.scene, { mainTextureSamples: 2});
+        gl.intensity=4;
+    /*     console.log("sssssssssssssssss gioooooooooooooooooo");
+        console.log(gl); */
                         }),
                         (t.prototype.handleErrors = function () {
                             if (0 === this._scene.meshes.length && 1 === this._scene.clearColor.r && 0 === this._scene.clearColor.g && 0 === this._scene.clearColor.b)
@@ -457,6 +463,7 @@ PERFORMANCE OF THIS SOFTWARE.
                                 this.prepareCamera(),
                                 this.prepareLighting(),
                                 this.handleErrors(),
+                            
                                 this.props.globalState.isDebugLayerEnabled && this.props.globalState.showDebugLayer();
                         }),
                         (t.prototype.loadAssetFromUrl = function (durl) { // giovanni carga con url
